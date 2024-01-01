@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: skyblue;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-part{
+    height: 480px;
+    width: 480px;
+    border-radius: 50%;
+    background-color: #31FC2F;
+    /* margin-top: 40px; */
+    border: 28px solid white;
+    position: relative;
+
+}
+.phone{
+    height: 100px;
+    width: 325px;
+    border-radius: 70%;
+    background-color: white;
+    transform: rotate(60deg);
+    margin-top: 168px;
+    margin-left: 41px;
+}
+.phone-logo{
+    height: 65px;
+    width: 211px;
+    border-radius: 55px;
+    background-color: #31FC2F;
+    transform: rotate(60deg);
+    margin-top: -101px;
+    margin-left: 125px;
+}
+.bottom-part{
+    height: 127px;
+    width: 108px;
+    transform: rotate(260deg) skew(11deg, 26deg);
+    background-color: #31FC2F;
+    position: absolute;
+    top: 331px;
+    left: 13px;
+    border-top: 30px solid #fff;
+    border-left: 26px solid #fff;
+}
+
